@@ -229,7 +229,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/15/DAY2/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/15/%E5%8F%98%E9%87%8F%E5%92%8C%E7%B1%BB%E5%9E%8B/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -248,7 +248,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2020/07/15/DAY2/" itemprop="url">DAY2</a></h1>
+                <a class="post-title-link" href="/2020/07/15/%E5%8F%98%E9%87%8F%E5%92%8C%E7%B1%BB%E5%9E%8B/" itemprop="url">JAVA语言入门-变量和类型</a></h1>
         
 
         <div class="post-meta">
@@ -300,7 +300,15 @@
       
         
           
-            <h2 id="一给我里giao"><a href="#一给我里giao" class="headerlink" title="一给我里giao"></a>一给我里giao</h2><p>一给我里giao 霍霍</p>
+            <h2 id="变量笔记"><a href="#变量笔记" class="headerlink" title="变量笔记"></a>变量笔记</h2><ol>
+<li>java世界中变量内容就是 对象！</li>
+<li>定义变量： <figure class="highlight plain"><figcaption><span>//字符串   （2）int</span><a href="//整型" target="_blank" rel="noopener">（3）long //大整数 （4）double //浮点数</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">String bz&#x3D;&quot;&quot;; &#x2F;&#x2F;bz为变量名称  值必须用“”包围</span><br><span class="line">int bz&#x3D;; &#x2F;&#x2F;同上，int型的值不用“”包围</span><br></pre></td></tr></table></figure></li>
+<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">最小值：Integer.MIN_VALUE&#x3D; -2147483648 （-2的31次方）；</span><br><span class="line">最大值：Integer.MAX_VALUE&#x3D; 2147483647 （2的31次方-1）；</span><br><span class="line">&#x2F;&#x2F;</span><br><span class="line">long</span><br><span class="line">最小值：Long.MIN_VALUE&#x3D;-9223372036854775808 （-2的63次方）；</span><br><span class="line">最大值：Long.MAX_VALUE&#x3D;9223372036854775807 （2的63次方-1）；</span><br><span class="line">long num&#x3D;780000l； 在long类型赋值时要在数字后面加小写l（L小写）</span><br><span class="line">&#x2F;&#x2F;</span><br><span class="line">boolean</span><br><span class="line">布尔类型的值只能是True &#x2F;False；</span><br><span class="line">boolean isAllow&#x3D;true；&#x2F;&#x2F;是否允许</span><br></pre></td></tr></table></figure></li>
+<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">+加法运算符</span><br><span class="line">- 减法运算符</span><br><span class="line">* 乘法运算符</span><br><span class="line">&#x2F; 除法运算符</span><br><span class="line">%整除运算符</span><br></pre></td></tr></table></figure></li>
+<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">int now &#x3D; 59;</span><br><span class="line">System.out.println(now&#x2F;60);&#x2F;&#x2F;该案例结果是0</span><br></pre></td></tr></table></figure>
+因为java执行的是整除除法，当两个数都是整数时，结果也会自动变为整数。</li>
+<li>System.out.println(name+”输入什么显示什么”)</li>
+</ol>
 
           
         
@@ -349,7 +357,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/15/Hello-bz/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/07/15/java1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -368,7 +376,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2020/07/15/Hello-bz/" itemprop="url">JAVA语言入门-java语言运行</a></h1>
+                <a class="post-title-link" href="/2020/07/15/java1/" itemprop="url">JAVA语言入门-java语言运行</a></h1>
         
 
         <div class="post-meta">
@@ -420,13 +428,12 @@
       
         
           <h2 id="JAVA语言入门笔记"><a href="#JAVA语言入门笔记" class="headerlink" title="JAVA语言入门笔记"></a>JAVA语言入门笔记</h2><ol>
-<li><p>JAVA语言在JVM（JAVA虚拟机）上运行，编译为字节码</p>
-</li>
-<li><p>块注释：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;**</span><br><span class="line">* 我是块注释</span><br><span class="line">*&#x2F;</span><br></pre></td></tr></table></figure>
+<li>JAVA语言在JVM（JAVA虚拟机）上运行，编译为字节码</li>
+<li>块注释：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;**</span><br><span class="line">* 我是块注释</span><br><span class="line">*&#x2F;</span><br></pre></td></tr></table></figure></li>
+<li>行注释：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;我是行注释</span><br></pre></td></tr></table></figure>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2020/07/15/Hello-bz/#more" rel="contents">
+            <a class="btn" href="/2020/07/15/java1/#more" rel="contents">
               Read more &raquo;
             </a>
           </div>
